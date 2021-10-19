@@ -2,7 +2,7 @@
 	Template Name:             || Xeon || Premium angular 9 Template
 	Template URI:              ....................................
 	Description:               ....................................
-	CoDer :                    Nilanjan Banerjee. 
+	CoDer :                    Nilanjan Banerjee.
 	CoDer's Site URL:          https://www.nilanjanbanerjee.com
 	Coder's facebook Page:     https://www.facebook.com/premiumtheme/
 	Coder's mail:              nilanjan.banerjee0@gmail.com
@@ -29,11 +29,14 @@
 	15.About Caption
 	16.About Accordian
 	17.Contact us
-	
+
 /*--------------------------------*/
 /*           1.Default
 /*--------------------------------*/
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800|Poppins:100,200,300,400,400i,500,600,700,800,900');
+html {
+  scroll-behavior: smooth;
+}
 .preloader {
 	position: fixed;
 	left: 0px;
@@ -401,6 +404,15 @@ button.close {
 .services-cont {
 	margin: 15px auto;
 	overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0 0 10px #3a383859;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+}
+.services-cont h6 {
+  margin-bottom: 0.5rem;
 }
 .services-cont .icon-cont {
 	float: left;
@@ -408,11 +420,40 @@ button.close {
 }
 .services-cont .icon-cont i {
 	font-size: 50px;
-	color: #fd6121;
+	color: #262321;
 }
 .services-cont .text-cont {
 	float: left;
 	width: 75%;
+}
+
+.get-in-touch {
+  max-width: 40rem;
+  margin: auto;
+  padding: 3rem;
+  border-radius: 1rem;
+  background: #f5c863;
+  color: #333;
+}
+
+.get-in-touch p {
+  color: #333;
+}
+
+.get-in-touch-btn {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2rem;
+  margin-bottom: -1rem;
+}
+
+.get-in-touch-btn a {
+  padding: 1rem;
+    background: #e9b133;
+    border-radius: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #9d6e06;
 }
 /*--------------------------------*/
 /*           5.About
@@ -459,14 +500,22 @@ button.close {
 /*           6.Team
 /*--------------------------------*/
 .team-cont {
+  display: flex;
 	margin: 15px auto;
 	overflow: hidden;
+}
+
+.team-cont img {
+  border-radius: 6px;
+  max-height: 150px;
+  margin-right: 1rem;
 }
 .team-cont .text-cont {
 	margin: 25px 0;
 }
 .team-cont .text-cont h5 {
 	color: #3f3f3f;
+  margin-bottom: 0.25rem;
 }
 .team-cont .text-cont h6 {
 	color: #777;
@@ -575,7 +624,7 @@ button.close {
 /*--------------------------------*/
 .footer {
 	background: #3a3838;
-	padding: 100px 0 0 0;
+	/* padding: 100px 0 0 0; */
 }
 .footer-item {
 	margin: 0 0 30px 0;
@@ -658,11 +707,20 @@ button.close {
 	font-size: 26px;
 }
 .footer-bottom {
+  padding: 1rem;
 	border-top: 1px solid #3d3d40;
+}
+.footer-bottom a {
+  color: #ccc;
+}
+.footer-bottom a:hover,
+.footer-bottom a:active {
+  color: #ccc;
+  text-decoration: underline;
 }
 .footer-bottom p {
 	color: #ccc;
-	margin: 30px 0;
+	margin: 0;
 	text-align: center;
 }
 ul.social li {

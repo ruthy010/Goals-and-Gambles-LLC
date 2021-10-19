@@ -1,0 +1,75 @@
+BEGIN:VCALENDAR
+METHOD:REQUEST
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:Eastern Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T020000
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=1SU;BYMONTH=11
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T020000
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=2SU;BYMONTH=3
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN=Al Branca (AXE):mailto:abranca@axeprime.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Jarrod Den
+ ney (AXE):mailto:jdenney@axeprime.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN='tony@bloc
+ kchainjedi.com':mailto:tony@blockchainjedi.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN='trevor.ot
+ terson@blockchainjedi.com':mailto:trevor.otterson@blockchainjedi.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN='jeff.wilh
+ ite@blockchainjedi.com':mailto:jeff.wilhite@blockchainjedi.com
+DESCRIPTION;LANGUAGE=en-US:Discussion on variable Member ID’s on site htt
+ ps://therxcard.net/HPBBJJ\n\nConference bridge: (856) 644.6006\nAccess Cod
+ e: 0037192\n\n\nAl Branca\n\nabranca@axeprime.com <mailto:abranca@axeprime
+ .com>\n\nDirect: 856-644-6401\nMain: 856-644-6400\n1-855-5-AXE-AXE\n\nwww.
+ axeprime.com <http://www.axeprime.com>\n\n921 Pleasant Valley Avenue\nMoun
+ t Laurel\, NJ 08054\n\n[https://s.axeprime.com/img/axe-signature.png] <htt
+ p://www.axeprime.com>\n\n________________________________\n\nThis email an
+ d any files transmitted with it are confidential and intended solely for t
+ he use of the individual or entity to whom they are addressed. This messag
+ e contains confidential information and is intended only for the individua
+ l named. If you are not the named addressee you should not disseminate\, d
+ istribute or copy this e-mail. Please notify the sender immediately by e-m
+ ail if you have received this e-mail by mistake and delete this e-mail fro
+ m your system. If you are not the intended recipient you are notified that
+  disclosing\, copying\, distributing or taking any action in reliance on t
+ he contents of this information is strictly prohibited.\n
+UID:040000008200E00074C5B7101A82E00800000000506FF45B33C0D701000000000000000
+ 0100000004F48006D0A58474CA87FB5AF9212076A
+SUMMARY;LANGUAGE=en-US:Call with AXE Rx and Blue United
+DTSTART;TZID=Eastern Standard Time:20211013T140000
+DTEND;TZID=Eastern Standard Time:20211013T142000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20211013T170804Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION;LANGUAGE=en-US:Virtual
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-OWNERAPPTID:-1903319067
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-LOCATIONS:[ { "DisplayName" : "Virtual"\, "LocationAnnotation" 
+ : ""\, "LocationSource" : 0\, "Unresolved" : true\, "LocationUri" : "" } ]
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
