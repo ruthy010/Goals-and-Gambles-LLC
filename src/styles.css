@@ -507,7 +507,8 @@ button.close {
 
 .team-cont img {
   border-radius: 6px;
-  max-height: 150px;
+  height: 150px;
+  width: 150px;
   margin-right: 1rem;
 }
 .team-cont .text-cont {
